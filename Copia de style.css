@@ -10,3 +10,8 @@
     max-width: 100%; /* Asegura que las imágenes no superen el ancho del contenedor */
     margin: 10px; /* Agrega un margen entre las imágenes */
 }
+
+
+.greeting {
+    text-align: center;
+    }
