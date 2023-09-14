@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text\css" href="style.css">
+        <title>Primera pagina</title>
+        <style>
+            h1{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: rgb(57, 55, 55);
+            }
+            p{
+                color: rgb(71, 16, 122);
+            }
+            body{
+                background-color: darkgrey;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar" role="navigation">
+                <ul>
+                <li><a href="mi-primera-pagina-web.html">Inicio</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container">
+            <h1>Bienvenido a mi primera página web</h1>
+            <p>Este es un sitio de ejemplo para aprender HTML, CSS y JavaScript.</p>
+        </div>
+        <!-- Contenido de la página aquí -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+            const toggleButton = document.getElementById("toggle-menu");
+            const navLinks = document.getElementById("nav-links");
+
+            toggleButton.addEventListener("click", function () {
+                navLinks.classList.toggle("active");
+            });
+        });
+        </script>
+    </body>
+</html>

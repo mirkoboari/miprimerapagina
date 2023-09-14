@@ -1,0 +1,12 @@
+/* Estilos para el contenedor de imágenes */
+.image-container {
+    display: flex; /* Usamos Flexbox para alinear horizontalmente */
+    justify-content: center; /* Centra horizontalmente las imágenes */
+    align-items: center; /* Centra verticalmente las imágenes */
+}
+
+/* Estilos para las imágenes */
+.image-container img {
+    max-width: 100%; /* Asegura que las imágenes no superen el ancho del contenedor */
+    margin: 10px; /* Agrega un margen entre las imágenes */
+}
